@@ -29,7 +29,6 @@ public class RepositoryRegistroAsistencia implements  IRegistroAsistenciaTrainin
         registros.add(new RegistroAsistenciaTraining(1, LocalDate.now(),"Raúl", "Daniela"));
         registros.add(new RegistroAsistenciaTraining(2, LocalDate.now(),"Oscar", "Alejandro"));
         return Flux.fromIterable(registros);
-
     }
 
     @Override
