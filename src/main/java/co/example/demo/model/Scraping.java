@@ -53,7 +53,7 @@ public class Scraping {
                 String descripcion = elem.getElementsByClass("autor").toString();
                 String nombreCanal = elem.getElementsByClass("fecha").text();
 
-                System.out.println(titulo+"\n"+autor+"\n"+fecha+"\n\n");
+                System.out.println(tituloVideo+"\n"+descripcion+"\n"+nombreCanal+"\n\n");
 
                 // Con el método "text()" obtengo el contenido que hay dentro de las etiquetas HTML
                 // Con el método "toString()" obtengo todo el HTML con etiquetas incluidas
